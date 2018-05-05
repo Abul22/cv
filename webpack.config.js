@@ -23,7 +23,9 @@ module.exports = {
         })
         , new HtmlWebpackPugPlugin()
     ]
-    // , target: 'node'
+    , output: {
+        path: path.join(__dirname, 'docs/')
+    }
     , mode: 'development'
     , devServer: {inline: true}
     , devtool: '#source-map'
