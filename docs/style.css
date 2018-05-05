@@ -6,10 +6,12 @@ body {
   grid-template-columns: 1fr 210mm 1fr;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif; }
+  @media print {
+    body {
+      font-size: 13px; } }
   body .wrapper {
     grid-column: 2;
     display: grid;
-    height: 290mm;
     grid-template-columns: 30% 70%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
     padding: 1rem;
@@ -65,13 +67,19 @@ body {
   .content .header {
     color: #39B1EF;
     border-bottom: 2px solid #39B1EF;
-    line-height: 2em;
-    font-size: 1.8em; }
+    line-height: 1.8em;
+    font-size: 1.6em;
+    margin-bottom: 0.5em; }
   .content h2 {
     font-weight: 400;
     border-bottom: 1px solid #39B1EF;
-    padding-bottom: 0.5rem;
-    font-size: 1.4em; }
+    line-height: 1.6em;
+    font-size: 1.2em;
+    margin: 0; }
+  .content .job p {
+    margin: 0.5em;
+    word-break: break-word;
+    word-wrap: break-spaces; }
 
 @media print {
   .band {
