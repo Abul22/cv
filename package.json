@@ -4,9 +4,10 @@
   "description": "My Curriculum Vitae",
   "main": "index.js",
   "scripts": {
+    "cname":"echo 'cv.duiker101.net' > ./docs/CNAME",
     "clean": "rimraf dist",
     "lint": "eslint --fix index.js",
-    "build": "npm run clean && webpack",
+    "build": "npm run clean && npm run cname && webpack",
     "start": "webpack-dev-server",
     "all": "npm run clean && npm run lint && npm run build"
   },
