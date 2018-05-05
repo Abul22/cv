@@ -12,7 +12,15 @@ module.exports = {
             }
             , {
                 test: /\.scss$/,
-                use: ['file-loader?name=[name].css', 'extract-loader', 'css-loader', 'sass-loader']
+                use: ['file-loader?name=[name].css', 'sass-loader']
+            }
+            , {
+                test: /\.png$/
+                , use: [{
+                    loader: 'file-loader',
+                    options: {name: './img/[name].[ext]'}
+                }]
+                , exclude: /node_modules/
             }
         ]
     }

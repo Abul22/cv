@@ -46,7 +46,45 @@ body {
   }
 }
 
+
+nav{
+  display:none;
+  font-size: 0.9rem;
+  a{
+    margin:0.5em;
+  }
+  img{
+    width:1.8em;
+  }
+}
+
 // MOBILE FUNCTIONALITY
+@media only screen and (min-width:$min_width){
+  .sidebar nav{
+    display:none;
+  }
+  nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0.5em;
+  }
+}
+@media only screen and (max-width:$min_width){
+
+
+  .sidebar nav{
+    display:block;
+    text-align: left;
+    line-height: 3.5rem;
+  }
+  nav {
+    display: none;
+    //position: absolute;
+    //right: 0;
+    //top: 0.5em;
+  }
+}
 
 @media only screen and (max-width: $min_width) {
   body {
@@ -71,8 +109,8 @@ body {
     .toggle, .name {
       display: initial;
     }
-    .band{
-      margin-bottom:1rem;
+    .band {
+      margin-bottom: 1rem;
     }
   }
   .sidebar {

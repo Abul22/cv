@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);* {
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
   -webkit-print-color-adjust: exact; }
 
 body {
@@ -29,6 +30,16 @@ body {
   margin-left: 5mm; }
   .content .toggle, .content .name {
     display: none; }
+
+nav {
+  display: none; }
+
+@media only screen and (min-width: 210mm) {
+  nav {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; } }
 
 @media only screen and (max-width: 210mm) {
   body {
