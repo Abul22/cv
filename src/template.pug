@@ -2,8 +2,10 @@ doctype html
 html
     head
         title CV Simone Masiero
-        link(rel='stylesheet' href=require('./style.scss'))
+        link(rel='stylesheet' href=require('./main.scss'))
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        //link(rel='stylesheet' href=require('./old_style.scss'))
     body
-        .wrapper
+        .wrapper.collapsed
             include sidebar.pug
             include content.pug
