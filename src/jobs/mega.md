@@ -4,6 +4,6 @@
 * Provided remote assistance to installed machines
 * Installed and serviced machines
 
-At MEGA, I mostly coded in Step 7 for Siemens PLCs, while not exactly the same thing of programming mobile apps I learnt a lot about the value of good documentation, code cleanliness and safety. Crashing a 5 ton machine is not the same as crashing a server. 
+At MEGA, I mostly coded in Step 7 for Siemens PLCs, while not the same thing of programming mobile apps I learnt a lot about good documentation, code cleanliness and safety.
 
 I also had to install and service the machines for which I had to learn the basics of electronics and mechanical engineering.
