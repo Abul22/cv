@@ -21,7 +21,7 @@ Facebook SDK
 Git, Mercurial, SVN  
 IntelliJ, VS, Sublime, Vi  
 Trello, Slack   
-## Projects
+## Personal Projects
 [PoEKit Atlas](https://atlas.poekit.net)  
 [LoLPlanner](https://map.riftkit.net)  
 [PingMe](https://pingme.riftkit.net)  
