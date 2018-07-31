@@ -13,10 +13,10 @@ CSS, Sass, Less
 JavaFx, TornadoFX  
 MySQL, RethinkDB, SQLite  
 NGINX, Apache  
+Sysadmin, Bash  
 Electron  
-Bash
-Google Analytics
-Facebook SDK
+Google Analytics  
+Facebook SDK  
 ## Tools
 Git, Mercurial, SVN  
 IntelliJ, VS, Sublime, Vi  

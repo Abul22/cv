@@ -1,4 +1,4 @@
-## Software Developer - MEGA (2009 - 2011)
+## Software Developer - MEGA (2009 - 2012)
 
 * Developed software on PLC for industrial packaging machines
 * Provided remote assistance to installed machines

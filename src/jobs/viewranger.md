@@ -1,4 +1,4 @@
-## Android Developer - ViewRanger (2014 - 2017)
+## Android Developer - ViewRanger (2014 - 2018)
 
 * Developed and maintained the Android version of the App
 * Designed the communication protocol for the Wear Application
