@@ -4,10 +4,10 @@ RxJava
 Retrofit  
 Wear  
 ## Web Skills
-NodeJS, VueJS  
+HTML, Javascript  
+React, NodeJS, VueJS, jQuery  
 Python, Django  
-.NET  
-HTML  
+.NET, VB 
 CSS, Sass, Less
 ## Other Skills
 JavaFx, TornadoFX  
