@@ -8,4 +8,3 @@ While my title was UX Developer, my role was more that of a full stack web devel
 
 In this role I was able to strengthen my C# skills and knowledge of the .NET framework while learning about concepts like MVC, dependency injection and other useful patterns.
 
-I also learnt to work in an Agile environment and had the opportunity to develop for companies such as Mozilla and Facebook.
