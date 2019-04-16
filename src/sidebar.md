@@ -1,22 +1,21 @@
-## Android Skills
-Java/Kotlin  
-RxJava  
-Retrofit  
-Wear  
 ## Web Skills
 HTML, Javascript  
-React, NodeJS, VueJS, jQuery  
-Python, Django  
-.NET, VB 
+React, VueJS, jQuery  
+PHP, Python, C#  
+Django, .NET  
 CSS, Sass, Less
+## Android Skills
+Java, Kotlin  
+RxJava  
+Retrofit    
+Wear  
 ## Other Skills
-JavaFx, TornadoFX  
-MySQL, RethinkDB, SQLite  
 NGINX, Apache  
-Sysadmin, Bash  
+JavaFx, TornadoFX  
+MySQL, SQLite  
+Sysadmin, Bash, Linux  
 Electron  
-Google Analytics  
-Facebook SDK  
+Google Analytics, Facebook SDK  
 ## Tools
 Git, Mercurial, SVN  
 IntelliJ, VS, Sublime, Vi  
@@ -38,3 +37,4 @@ Travelling
 Bouldering  
 Running  
 Video Games  
+More Programming 

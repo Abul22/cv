@@ -1,6 +1,6 @@
 ## Web Developer - 32Red Brand of Kindred Group (2018 - 2019)
 
-* Develop the new Event Insight service
+* Develop the new Event Insight service for real time events
 * Create and maintain new promotions
 * Integrated new version of the game APIs
 

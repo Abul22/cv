@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Simone\dev\react\cv\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\ComposerSetup\bin;C:\php;C:\Program Files\dotnet\;C:\Program Files\Calibre2\;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include;C:\ProgramData\chocolatey\bin;C:\Users\Simone\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Simone\AppData\Local\Programs\Python\Python37-32\;C:\Users\Simone\AppData\Local\Microsoft\WindowsApps;C:\Users\Simone\AppData\Roaming\npm;C:\Users\Simone\AppData\Local\Yarn\bin;C:\Users\Simone\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Simone\dev\react\cv\node_modules\.node-sass.DELETE\vendor\win32-x64-64\binding.node'
+
+npm manifest: 
+  {
+    "name": "cv",
+    "version": "1.0.0",
+    "description": "My Curriculum Vitae",
+    "main": "index.js",
+    "scripts": {
+      "cname": "echo 'cv.masiero.io' > ./docs/CNAME",
+      "clean": "rimraf dist",
+      "lint": "eslint --fix index.js",
+      "build": "npm run clean && npm run cname && webpack",
+      "start": "webpack-dev-server",
+      "all": "npm run clean && npm run lint && npm run build"
+    },
+    "author": "Simone Masiero <simone@masiero.io>",
+    "license": "MIT",
+    "dependencies": {
+      "babel-core": "^6.26.3",
+      "babel-eslint": "^8.2.6",
+      "babel-loader": "^7.1.5",
+      "babel-preset-env": "^1.7.0",
+      "css-loader": "^0.28.11",
+      "eslint": "^4.19.1",
+      "eslint-loader": "^2.1.0",
+      "extract-loader": "^2.0.1",
+      "file-loader": "^1.1.11",
+      "html-webpack-plugin": "^3.2.0",
+      "html-webpack-pug-plugin": "^0.3.0",
+      "jstransformer-markdown-it": "^2.1.0",
+      "markdown-it": "^8.4.2",
+      "node-sass": "^4.11.0",
+      "pug": "^2.0.3",
+      "pug-loader": "^2.4.0",
+      "rimraf": "^2.6.2",
+      "sass-loader": "^7.1.0",
+      "webpack": "^4.17.1",
+      "webpack-cli": "^2.1.5",
+      "webpack-dev-server": "^3.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
