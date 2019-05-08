@@ -15,6 +15,10 @@ module.exports = {
                 use: ['file-loader?name=[name].css', 'sass-loader']
             }
             , {
+                test: /\.js$/,
+                use: ['file-loader?name=[name].js']
+            }
+            , {
                 test: /\.png$/
                 , use: [{
                     loader: 'file-loader',
