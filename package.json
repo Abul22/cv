@@ -4,12 +4,12 @@
   "description": "My Curriculum Vitae",
   "main": "index.js",
   "scripts": {
-    "cname": "echo cv.masiero.io > ./docs/CNAME",
-    "clean": "rimraf dist",
+    "cname": "echo cv.masiero.io > docs/CNAME",
+    "clean": "rimraf docs",
     "lint": "eslint --fix index.js",
-    "build": "npm run clean && npm run cname && webpack",
+    "build": "yarn run clean && webpack && yarn run cname",
     "start": "webpack-dev-server",
-    "all": "npm run clean && npm run lint && npm run build"
+    "all": "yarn run clean && yarn run lint && yarn run build"
   },
   "author": "Simone Masiero <simone@masiero.io>",
   "license": "MIT",
@@ -32,8 +32,8 @@
     "pug-loader": "^2.4.0",
     "rimraf": "^2.6.2",
     "sass-loader": "^7.1.0",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^2.1.5",
-    "webpack-dev-server": "^3.2.0"
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
   }
 }
